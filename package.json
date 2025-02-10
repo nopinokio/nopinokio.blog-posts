@@ -1,0 +1,19 @@
+{
+  "name": "my-blog-post-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node scripts/generateData.js",
+    "watch": "node scripts/generateData.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "fs-extra": "^11.3.0",
+    "gray-matter": "^4.0.3",
+    "path": "^0.12.7"
+  }
+}
